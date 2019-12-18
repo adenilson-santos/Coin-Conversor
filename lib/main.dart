@@ -3,7 +3,7 @@ import 'package:http/http.dart' as http;
 import 'dart:async';
 import 'dart:convert';
 
-const hgApi = 'https://api.hgbrasil.com/finance';
+const hgApi = 'https://api.hgbrasil.com/finance?key=0963793e';
 
 void main () async {
   runApp(MaterialApp(
